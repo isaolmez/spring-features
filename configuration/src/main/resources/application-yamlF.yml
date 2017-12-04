@@ -1,0 +1,8 @@
+f:
+  people:
+    - name: f1
+      age: 1
+    - name: f2
+      age: 2
+    - name: f3
+      age: 3

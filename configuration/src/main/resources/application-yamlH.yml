@@ -1,0 +1,12 @@
+h:
+  configuredEndpoints:
+    - first:
+        enabled: false
+        pattern: http://localhost:8080/api/first
+        method: POST
+        format: JSON
+    - second:
+        enabled: true
+        pattern: http://localhost:8080/api/second
+        method: PUT
+        format: JSON

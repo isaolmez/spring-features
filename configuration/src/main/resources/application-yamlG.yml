@@ -1,0 +1,11 @@
+g:
+  people:
+    person1:
+        name: g1
+        age: 1
+    person2:
+        name: g2
+        age: 2
+    person3:
+        name: g3
+        age: 3
