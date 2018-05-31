@@ -3,7 +3,6 @@ package com.isa.spring.features.properties.lesson2.service;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.Profile;
 import org.springframework.core.env.PropertySource;
 import org.springframework.stereotype.Service;
 
@@ -11,8 +10,8 @@ import javax.annotation.PostConstruct;
 
 @Slf4j
 @Service
-@Profile("lesson2")
 public class PropertyUserService {
+
     private final PropertySource propertySource;
 
     @Value("${custom.key}")

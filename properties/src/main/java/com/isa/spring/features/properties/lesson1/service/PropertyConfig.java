@@ -2,7 +2,6 @@ package com.isa.spring.features.properties.lesson1.service;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Profile;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 import org.springframework.core.env.PropertiesPropertySource;
 import org.springframework.core.env.PropertySource;
@@ -13,7 +12,6 @@ import java.io.IOException;
 import java.util.Properties;
 
 @Configuration
-@Profile("lesson1")
 public class PropertyConfig {
 
     @Bean

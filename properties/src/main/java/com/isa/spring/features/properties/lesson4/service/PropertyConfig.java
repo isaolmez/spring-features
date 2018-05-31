@@ -2,13 +2,11 @@ package com.isa.spring.features.properties.lesson4.service;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Profile;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 
 @Configuration
-@Profile("lesson4")
 public class PropertyConfig {
 
     @Bean
